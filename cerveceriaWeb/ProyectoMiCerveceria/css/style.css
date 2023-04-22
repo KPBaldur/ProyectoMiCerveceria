@@ -2,11 +2,19 @@
 *,::before,::after{
     box-sizing: border-box;
 }
+
+:root{
+    --bg-color: #fbfefd;
+    --bg-second-color: #707070;
+    --primari-color: #fbaf32; 
+    --secondary-color: #393939;
+}
+
 body {
     margin: 3rem 0 0 0;
     font-family: 'Poppins', sans-serif;
     font-size: .938rem;
-    background-color: #fbfefd;
+    background-color: var(--bg-color);
     color: #707070;
     line-height: 1.6;
 }
@@ -123,7 +131,7 @@ img {
 
 .home {
     background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),
-     url(../img/header.jpg);
+     url(../img/header2.jpg);
      background-position: center center;
      background-size: cover;
 }
