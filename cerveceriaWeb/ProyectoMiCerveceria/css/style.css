@@ -186,6 +186,14 @@ img {
 .services_content {
     text-align: center;
 }
+.services_content button {
+    display: inline-block;
+    background-color: #fbaf32;
+    color: #fbfffa;
+    padding: .5rem;
+    border-radius: .5rem;
+    box-shadow: white;
+}
 .services_img {
     width: 64px;
     height: 64px;
