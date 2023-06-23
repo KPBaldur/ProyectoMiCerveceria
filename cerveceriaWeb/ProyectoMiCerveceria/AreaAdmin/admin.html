@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Administrador - Agregar Productos</title>
+	<link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+	<header>
+		<h1>Administrador - Agregar Productos</h1>
+	</header>
+	<main>
+		<form  method="POST" action="insertar_producto.php"  id="form-producto">
+			<label for="nombre">Nombre del producto:</label>
+			<input type="text" name="nombre" id="nombre" required>
+			<label for="precio">Precio del producto:</label>
+			<input type="number" name="precio" id="precio" required>
+			<label for="descripcion">Descripción del producto:</label>
+			<textarea name="descripcion" id="descripcion" required></textarea>
+			<button type="submit">Agregar Producto</button>
+		</form>
+	</main>
+	<footer>
+		<p>Hecho por [tu nombre aquí]</p>
+	</footer>
+	<script src="./js/main.js"></script>
+</body>
+</html>
