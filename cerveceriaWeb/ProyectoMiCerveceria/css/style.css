@@ -166,7 +166,6 @@ img {
 }
 
 .about_data {
-    
     text-align: center;
 }
 .about_description {
@@ -410,3 +409,11 @@ text-align: center;
         height: 640px;
     }
 }
+
+.precio {
+    font-size: 18px;
+    color: green;
+    font-weight: bold;
+  }
+
+  
