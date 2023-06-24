@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mi Carrito de Compras</title>
+    <style>
+      /* Estilos para el carrito */
+      #carrito {
+        border: 1px solid gray;
+        padding: 10px;
+      }
+      #carrito ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      #carrito li {
+        margin-bottom: 10px;
+      }
+      #carrito img {
+        float: left;
+        margin-right: 10px;
+      }
+      #carrito .producto-nombre {
+        font-weight: bold;
+      }
+      #carrito .producto-precio {
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Sección del carrito -->
+    <div id="carrito">
+      <h2>Carrito de Compras</h2>
+      <ul id="carrito-lista">
+        <!-- Se agregará los productos dinámicamente con JS -->
+      </ul>
+      <p>Total: $<span id="carrito-total">0</span></p>
+    </div>
+    <!-- Sección de productos disponibles -->
+    <div id="productos-disponibles">
+      <!-- Se agregarán los productos disponibles dinámicamente con JS -->
+    </div>
+    <!-- Script para el carrito -->
+    <script src="carrito.js"></script>
+  </body>
+</html>
